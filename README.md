@@ -10,6 +10,8 @@ This is a web service for retrieving information about and downloading images fr
 4. Try the collections metadata endpoint (Example: http://127.0.0.1:5000/collections-metadata?url=https://www.flickr.com/photos/11061732@N07/collections/72157638428210105/)
 5. Try the asset downloads endpoint (Example: http://127.0.0.1:5000/download-assets?url=https://www.flickr.com/photos/11061732@N07/collections/72157638428210105/)
 
+Note: This service currently has a Flickr API key hardcoded. If you intend to heavily use this service, please request an additional API key and replace it in code.
+
 
 ## Implementation decisions
 ### Flask
